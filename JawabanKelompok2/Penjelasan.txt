@@ -1,0 +1,5 @@
+Data Clumps
+Data clumps terjadi ketika terdapat beberapa variabel yang serupa pada program. Solusi kami terhadap soal yang diberikan adalah dengan menghapus variabel rentStart dan rentEnd di class Movies karena variabel tersebut sudah ada pada class Rental. Lalu, kami membuat class baru bernama RentDuration untuk menggantikan start dan end pada class Rent Kami juga mengubah movieName pada class Rental menjadi object Movie karena nantinya pasti ada lebih dari satu detail pada class Movie.
+
+Long Parameter
+Long parameter terjadi ketika suatu method memiliki parameter lebih dari 3 atau 4 sehingga dapat dikatakan parameternya terlalu panjang. Pada soal yang diberikan, method balanceNotif pada class WalletNotification memiliki parameter yang terlalu panjang. Maka dari itu, parameter name, email, dan current saya ganti menjadi object user.

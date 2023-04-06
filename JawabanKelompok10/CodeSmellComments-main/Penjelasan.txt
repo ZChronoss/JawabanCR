@@ -1,0 +1,1 @@
+Terdapat comment yang tidak perlu. Solusinya adalah dengan mengganti nama variable dan method dengan nama yang lebih menjelaskan fungsi dari variabel dan method tersebut.

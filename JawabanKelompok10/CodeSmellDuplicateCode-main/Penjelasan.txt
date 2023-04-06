@@ -1,0 +1,1 @@
+Code ini memiliki terlalu banyak code yang sama. Metode untuk menyelesaikan masalah ini adalah dengan extract method sehingga kumpulan code yang familiar dijadikan satu code yang lebih pendek.
