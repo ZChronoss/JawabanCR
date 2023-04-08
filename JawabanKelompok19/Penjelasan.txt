@@ -1,0 +1,3 @@
+Lazy class:
+Pada code tersebut terdapat class yang hanya digunakan untuk membuat object dengan atribut yang terlalu sedikit. Maka dari itu, class tersebut dihilangkan saja dan dibuat variabel lain pada class Main untuk menggantikan class tersebut.
+
