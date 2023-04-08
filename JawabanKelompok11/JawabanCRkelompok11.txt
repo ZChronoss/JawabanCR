@@ -1,0 +1,3 @@
+code smell alternatives classes with different interfaces yaitu ketika ada dua class yang memiliki fungsi yang sama.  tetapi memilkiki interface yang berbeda. pada contoh tersebut alternatifnya adalah menghapus method currencyTo dan menuliskan method CurrencyConverter ke CheckoutHandler. sehingga CheckoutHandler berfokus pada penanganan shoopingCart dan PriceTotal. 
+
+code smell refuseed bequest yaitu code yang terjadi ketika subclass tidak menggunakan metode atau code yang diwarisi oleh superclass. pada soal tersebut solusinya adalah menghapus inheritance 'PersonalTaxCalculator' dan menuliskannya menjadi sebuah method pada class company
