@@ -1,3 +1,5 @@
 Lazy class:
 Pada code tersebut terdapat class yang hanya digunakan untuk membuat object dengan atribut yang terlalu sedikit. Maka dari itu, class tersebut dihilangkan saja dan dibuat variabel lain pada class Main untuk menggantikan class tersebut.
 
+Data class:
+Smell kode disini adalah dimana class CurrCorrdinates hanya menyimpan data dan tidak memiliki method apapun, menjadikannya sebagai container data untuk class Main. Oleh karena itu, sebaiknya kode untuk mencari distance lebih baik dipindahkan dari Main ke CurrCoordinates.
