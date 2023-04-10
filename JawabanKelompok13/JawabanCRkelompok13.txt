@@ -1,0 +1,6 @@
+code smell Inappropriate intimacy adalah
+
+ketika ada method dari sebuah class mengakses banyak atribut dari class lain.Move method dan move fields(menghapus getter and setter pada Customer lalu bikin getter setter pada bankAcoount dibikin method baru)
+
+
+code smell Feature envy.pada contoh tersebut Move method dan move field. pada User menghapus method GetFullAddress dan menuliskan method GetFullAddress kembali pada ContactInfo 
