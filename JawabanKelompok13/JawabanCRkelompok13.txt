@@ -1,0 +1,3 @@
+code smell Inappropriate intimacy pada contoh tersebut Move method dan extract method.method getWeapon()  sebagai middle man untuk mendapatkan weaponType dari class Weapon lalu solusinya method getWeapon() dihapus dan pada classWarrior ditambahkan method weaponType.
+
+code smell Feature envy adalah ketika ada method dari sebuah class mengakses banyak atribut dari class lain. pada con tersebut Move method dan move fields(bikin getter setter selanjutnya pada User menghapus method GetFullAddress dan menuliskan method GetFullAddress kembali pada ContactInfo 
