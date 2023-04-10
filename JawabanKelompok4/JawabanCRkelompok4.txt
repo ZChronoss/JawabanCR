@@ -1,0 +1,4 @@
+code smell Midle main adalah  ketika ada class yang meneruskan panggilan ke class lain tanpa menambahkan nilai apapun. pada contoh tersebut method getWeapon()  sebagai middle man untuk mendapatkan weaponType dari class Weapon lalu solusinya method getWeapon() dihapus dan pada classWarrior ditambahkan method weaponType.
+
+
+code smell Incomplete library adalah ketika program menggunakan library tertentu dan library tersebut tidak menyediakan fitur  sehingga kita harus menuliskannya implementasi code tambahan. pada contoh tersebut bikin method baru, buat sent email butuh method yang lebih kompleks. Pada method email kusus untuk bertanggung jawab pada sentemail saja.
