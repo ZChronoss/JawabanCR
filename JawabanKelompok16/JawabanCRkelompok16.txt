@@ -1,0 +1,6 @@
+code smell dead code adalah code yang tidak pernah dieksekusi dalam program seperti contoh variable,method,parameter yang tidak diperlukan
+pada contoh tersebut Hapus if karena sudah tidak dipake karena hanya awal-awal ketika toko ramai dipakai.
+
+code Speculative generality sebuah code spekulasi kodenya belum tentu  dipakai
+pada contoh tersebut Menghilangkan parameter string operator dan else if else selanjutnya membuat method baru dari setiap penjumlahan,perkalian,pengurangan,pembagian.
+
