@@ -1,0 +1,7 @@
+Pada Wide Hierarchy yang ada di folder before, tidak ditemukan adanya wide hierarchy sama sekali. hal ini karena:
+
+1. Dari yang awalnya penggunaan hirarkinya berantakan pada missing hierarchy, walau codenya sama persis, namun kini sudah dibuat type class dan pokemon class yang menjadi parent class dari pokemon-pokemon dan tipe-tipe elemen yang ada.
+
+1. setiap subclass yang ada semuanya memiliki behavior yang tidak bisa disamakan selain dari yang diwariskan.
+
+2. total subclass masih <= 3, masih jumlah yang aman tanpa perlu refactor.
