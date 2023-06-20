@@ -1,0 +1,7 @@
+PENJELASAN PENYELESAIAN CODE MISSING HIERARCY
+
+pada code pokemon missing hierarchy ini, memang terdapat missing hierarchy, namun untuk menyelesaikan permasalahannya, perlu sangat banyak rombakan. Seperti dari penggunaan object yang tidak sesuai dan berbagai hal lainnya. 
+
+Salah satu contoh paling jelas adalah pelanggaran penggunaan object entity. disini setiap pokemon didefinisi sebagai entity, namun tipe dari pokemon tersebut juga tipenya entity. Terlebih lagi kalau dilihat, class type pokemon (fire, water, grass) tidak melakukan override pada Entity sama sekali. 
+
+Oleh karena itu, saya menghapus relasi class type (fire, dkk) inheritance Entitynya menjadi object buatan saya yaitu abstract class TypeTrait (walau isinya hanya move method dan dibuat jadi abstract saja, jadi tidak ada penambahan code). Hal ini dibutuhkan agar pokemon bisa merujuk ke typenya (karena awalnya inheritance class fire,dkk tidak jelas karena tidak ada override apapun). Selain itu, saya juga membuat interface PokemonTrait, dimana interface ini adalah interface yang berperan untuk bisa mengatasi missing hierarchynya. Sehingga dengan implementasi seperti pada jawaban java yang dapat dilihat pada folder. Akhirnya if else yang awalnya nested, sekarang hanya menjadi satu saja berkat penggunaan interface PokemonTrait dan masalah missing hierarchy pun selesai.
