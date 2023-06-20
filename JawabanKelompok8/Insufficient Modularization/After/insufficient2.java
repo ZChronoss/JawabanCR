@@ -13,19 +13,13 @@ public class ShoppingCart {
         items.remove(item);
     }
 
-    public void calculateTotal() {
-        double total = 0;
-        for (Item item : items) {
-            total += item.getPrice();
-        }
-        System.out.println("Total: $" + total);
+    public double calculateTotal() {
+        return items.stream().mapToDouble(item::getPrice).sum();
     }
 
     public void printItems() {
-        System.out.println("Items in the cart:");
-        for (Item item : items) {
-            System.out.println(item.getName() + " - $" + item.getPrice());
-        }
+        
+        items.forEach(System.out::println);
     }
 
     public static void main(String[] args) {
@@ -35,7 +29,7 @@ public class ShoppingCart {
         cart.addItem(item1);
         cart.addItem(item2);
         cart.printItems();
-        cart.calculateTotal();
+        System.out.println("Total : $" + cart.calculateTotal());
     }
 }
 
